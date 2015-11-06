@@ -19,9 +19,12 @@ description: |
            region being mapped may change dramatically after mapping.
   ***********************************************************************
 
+dct:creator:
+  foaf:name: Andy Yang
+
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/briandoconnor/dockstore-tool-bamstats:1.25-2"
+    dockerPull: "quay.io/cancercollaboratory/dockstore-tool-liftover"
   - { import: node-engine.cwl }
 
 inputs:
