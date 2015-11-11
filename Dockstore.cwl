@@ -3,7 +3,8 @@
 class: CommandLineTool
 
 description: |
-  liftOver - Move annotations from one assembly to another
+  Move annotations from one assembly to another
+
   usage:
      liftOver oldFile map.chain newFile unMapped
   oldFile and newFile are in bed format by default, but can be in GFF and
@@ -21,6 +22,7 @@ description: |
 
 dct:creator:
   foaf:name: Andy Yang
+  foaf:mbox: "mailto:ayang@oicr.on.ca"
 
 requirements:
   - class: DockerRequirement
