@@ -20,9 +20,17 @@ description: |
            region being mapped may change dramatically after mapping.
   ***********************************************************************
 
-dct:creator:
+dct:contributor:
   foaf:name: Andy Yang
   foaf:mbox: "mailto:ayang@oicr.on.ca"
+
+dct:creator:
+  "@id": "http://orcid.org/0000-0001-9102-5681"
+  foaf:name: "Andrey.Kartashov / Cincinnati Children’s Hospital Medical Center"
+  foaf:mbox: "mailto:Andrey.Kartashov@cchmc.org"
+
+dct:description: "Developed for CWL consortium http://commonwl.org/ Original URL: https://github.com/common-workflow-language/workflows"
+
 
 requirements:
   - class: DockerRequirement
